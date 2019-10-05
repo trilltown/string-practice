@@ -2,7 +2,7 @@ let str = "beautiful day";
 
 // Do all exercises with both `for` and `while`
 
-// 1. Print all other letters
+// 1. Print all other letters starting with the first one
 
 // 2. Print index of 'e'
 
