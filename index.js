@@ -2,11 +2,29 @@ let str = "beautiful day";
 
 // 1. Print all other letters starting with the first one
 
+// for (let i = 0; i < str.length; i+= 2) {
+//     console.log(str[i])     
+// }
+
 // 2. Print index of 'e'
+
+// console.log(str.indexOf("e"))
 
 // 3. Print the characters that occur at even indexes
 
+// for (let i = 0; i <= str.length - 1; i++) {
+//     if (i % 2 === 0) {
+//         console.log(str[i])
+//     }
+// }
+
 // 4. Print the characters that occur at odd indexes - do it backward
+
+for (let i = str.length; i >= 0; i--) {
+    if (i % 2 === 1) {
+        console.log(str[i])
+    }
+}
 
 // 5. Print with each character in this format "Index of (character) is (index)"
 
@@ -16,6 +34,10 @@ let str = "beautiful day";
     // "Index of i is 1"
 
 // Re-do everything using another loop (`for` / `while`)
+
+for (let i = 0; i < str.length; i++) {
+    console.log(`Index of ${str[i]} is ${i}`)
+}
 
 let newSentence = "Today we are Saturday"
 
