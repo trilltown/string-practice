@@ -1,7 +1,5 @@
 let str = "beautiful day";
 
-// Do all exercises with both `for` and `while`
-
 // 1. Print all other letters starting with the first one
 
 // 2. Print index of 'e'
@@ -17,6 +15,7 @@ let str = "beautiful day";
     // "Index of h is 0"
     // "Index of i is 1"
 
+// Re-do everything using another loop (`for` / `while`)
 
 let newSentence = "Today we are Saturday"
 
