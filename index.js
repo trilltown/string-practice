@@ -20,11 +20,11 @@ let str = "beautiful day";
 
 // 4. Print the characters that occur at odd indexes - do it backward
 
-for (let i = str.length; i >= 0; i--) {
-    if (i % 2 === 1) {
-        console.log(str[i])
-    }
-}
+// for (let i = str.length; i >= 0; i--) {
+//     if (i % 2 === 1) {
+//         console.log(str[i])
+//     }
+// }
 
 // 5. Print with each character in this format "Index of (character) is (index)"
 
@@ -35,9 +35,9 @@ for (let i = str.length; i >= 0; i--) {
 
 // Re-do everything using another loop (`for` / `while`)
 
-for (let i = 0; i < str.length; i++) {
-    console.log(`Index of ${str[i]} is ${i}`)
-}
+// for (let i = 0; i < str.length; i++) {
+//     console.log(`Index of ${str[i]} is ${i}`)
+// }
 
 let newSentence = "Today we are Saturday"
 
@@ -45,3 +45,12 @@ let newSentence = "Today we are Saturday"
 
  // input: "hello"
  // output: "hll"
+
+let sentenceWithoutVowels = ""
+
+for (let i = 0; i < newSentence.length; i++) {
+    if (newSentence[i] !== "a" && newSentence[i] !=="e" && newSentence[i] !=="i" && newSentence[i] != "o" && newSentence[i] !== "u") {
+        sentenceWithoutVowels += newSentence[i];
+    }
+}
+console.log(sentenceWithoutVowels)
